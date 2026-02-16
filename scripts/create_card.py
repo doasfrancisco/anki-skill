@@ -1,7 +1,7 @@
 """CLI entry point for creating Anki cards via AnkiConnect.
 
 Usage:
-    python teacher/anki-connect/create_card.py --deck "CS" --front "What is X?" --back "X is..." --tags "python,basics"
+    python anki-skill/client/create_card.py --deck "CS" --front "What is X?" --back "X is..." --tags "python,basics"
 """
 
 import argparse

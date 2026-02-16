@@ -1,11 +1,11 @@
 """CLI for listing/filtering Anki cards via AnkiConnect.
 
 Usage:
-    python anki-connect/list_cards.py --deck "1. personal"
-    python anki-connect/list_cards.py --deck "7. computer science" --added 30
-    python anki-connect/list_cards.py --deck "7. computer science" --tag "python"
-    python anki-connect/list_cards.py --due
-    python anki-connect/list_cards.py --query "tag:python added:7"
+    python anki-skill/client/list_cards.py --deck "1. personal"
+    python anki-skill/client/list_cards.py --deck "7. computer science" --added 30
+    python anki-skill/client/list_cards.py --deck "7. computer science" --tag "python"
+    python anki-skill/client/list_cards.py --due
+    python anki-skill/client/list_cards.py --query "tag:python added:7"
 """
 
 import argparse
